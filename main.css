@@ -1,0 +1,116 @@
+/* -----------------
+    media Queries 
+----------------- */ 
+@media screen and (min-width: 480px) {
+    .navbar-brand {
+        text-align: center;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* -----------------
+    HTML Elements 
+----------------- */ 
+
+#content {
+    background-color: lightgrey;
+}
+
+/* -----------------
+    Navbar
+----------------- */ 
+
+nav {
+    background-color: white !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-family: serif;
+    font-size: 17px;
+    
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    font-size: 25px;
+}
+
+/* -----------------
+    Carousel
+----------------- */ 
+
+#carousel_image, #carousel_information {
+    border: 1px solid grey;
+    height: 400px;
+    box-shadow: 5px 5px 2px #888888
+    
+}
+#carousel_image {
+    width: 65%;
+}
+#carousel_information {
+    width: 35%;
+    background-color: firebrick;
+    color: white;
+}
+#button-group {
+    top:-10px;
+}
+.carousel-button {
+    font-size: 25px;
+    
+    float: left;
+    width: 25%;
+    height: 75px;
+    margin: 0px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 2px #888888;
+    background-image: linear-gradient(to bottom, white 0%, lightgrey 90%);
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+.carousel-button:hover {
+    background-image: linear-gradient(to bottom, grey 0%, lightgrey 80%);
+    color: white;
+}
+
+.carousel-button.active {
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, grey 0%, lightgrey 50%);
+    box-shadow: none;
+    font-weight: bold;
+}
+
+/* ---------------------------
+    Media object
+----------------------------*/
+.media {
+    padding-bottom: 20px;
+}
+.media-left>a>img {
+    border: 3px solid white;
+}
+.media-body {
+    padding-left:20px;
+}
+
+
+/* ---------------------------
+    Footer
+----------------------------*/
+
+#footer>div>a {
+    color: black;
+    font-weight: bold;
+}
+.privacy {
+    color: grey !important;
+    font-weight: 100;
+}
