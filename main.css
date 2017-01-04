@@ -72,10 +72,9 @@ nav {
 }
 .carousel-button {
     font-size: 25px;
-    
     float: left;
-    width: 25%;
-    height: 75px;
+    width: 25% !important;
+    height: 75px !important;
     margin: 0px;
     border: 1px solid grey;
     box-shadow: 5px 5px 2px #888888;
@@ -84,11 +83,12 @@ nav {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     
+    
 }
 .carousel-button:hover {
     background-image: linear-gradient(to bottom, grey 0%, lightgrey 80%);
     color: white;
-    text-align: center
+    text-align: center;
 }
 
 .carousel-button.active {
@@ -112,7 +112,10 @@ nav {
     bottom: 2.6em;
     left: -1.5em;
 }
-
+.carousel-indicators {
+    position: relative;
+    z-index: 0;
+}
 /* ---------------------------
     Media object
 ----------------------------*/
